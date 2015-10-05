@@ -34,7 +34,7 @@ function onData( error, data ) {
 }
 ```
 
-The `function` accepts the same options as [`fs.readFile()`](https://nodejs.org/api/fs.html#fs_fs_readfile_filename_options_callback), but `encoding` is always set to `utf8`. In addition, the `function` supports [`ALCE#parse`](https://github.com/walmartlabs/ALCE) options.
+The `function` accepts the same options as [`fs.readFile()`](https://nodejs.org/api/fs.html#fs_fs_readfile_filename_options_callback), but `encoding` is always set to `utf8`. In addition, the `function` supports [`ALCE#parse`](https://github.com/kgryte/utils-alce-parse) options.
 
 ``` javascript
 read( '/path/to/data.alce', {'meta':false}, onData );
