@@ -51,7 +51,7 @@ function onData( error, data ) {
 
 #### read.sync( path[, options] )
 
-Synchronously reads the contents of an entire [ALCE](https://github.com/kgryte/utils-alce-parse) file.
+Synchronously reads the contents of an entire [ALCE](https://github.com/walmartlabs/ALCE) file.
 
 ``` javascript
 var out = read.sync( '/path/to/data.alce' );
@@ -61,7 +61,7 @@ if ( out instanceof Error ) {
 console.log( out );
 ```
 
-The `function` accepts the same options as [`fs.readFileSync()`](https://nodejs.org/api/fs.html#fs_fs_readfilesync_filename_options) and supports [`ALCE#parse`](https://github.com/walmartlabs/ALCE) options.
+The `function` accepts the same options as [`fs.readFileSync()`](https://nodejs.org/api/fs.html#fs_fs_readfilesync_filename_options) and supports [`ALCE#parse`](https://github.com/kgryte/utils-alce-parse) options.
 
 
 
