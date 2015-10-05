@@ -51,7 +51,7 @@ function onData( error, data ) {
 
 #### read.sync( path[, options] )
 
-Synchronously reads the contents of an entire [ALCE](https://github.com/walmartlabs/ALCE) file.
+Synchronously reads the contents of an entire [ALCE](https://github.com/kgryte/utils-alce-parse) file.
 
 ``` javascript
 var out = read.sync( '/path/to/data.alce' );
